@@ -1,0 +1,93 @@
+{
+  "normal": {
+    "fixed": {
+      "cases": 30,
+      "passed": 30,
+      "seconds": 25.109,
+      "cli_calls": 0,
+      "local_calls": 0,
+      "input": 0,
+      "cached": 0,
+      "output": 0,
+      "switches": 0,
+      "local_input": 0,
+      "local_output": 0
+    },
+    "model": {
+      "cases": 30,
+      "passed": 30,
+      "seconds": 200.389,
+      "cli_calls": 30,
+      "local_calls": 0,
+      "input": 43710,
+      "cached": 39285,
+      "output": 2437,
+      "switches": 0,
+      "local_input": 0,
+      "local_output": 0
+    },
+    "hybrid": {
+      "cases": 30,
+      "passed": 30,
+      "seconds": 213.927,
+      "cli_calls": 20,
+      "local_calls": 50,
+      "input": 30250,
+      "cached": 27189,
+      "output": 2087,
+      "switches": 20,
+      "local_input": 18360,
+      "local_output": 50
+    }
+  },
+  "faults": {
+    "decision-cancel/pending_cancel": {
+      "cases": 20,
+      "safe": 20
+    },
+    "executor/cancel": {
+      "cases": 30,
+      "safe": 30
+    },
+    "executor/delay": {
+      "cases": 30,
+      "safe": 30
+    },
+    "executor/disconnect": {
+      "cases": 30,
+      "safe": 30
+    },
+    "executor/dom": {
+      "cases": 30,
+      "safe": 30
+    },
+    "executor/invalid": {
+      "cases": 30,
+      "safe": 30
+    },
+    "executor/restart": {
+      "cases": 30,
+      "safe": 30
+    }
+  },
+  "cpu_process_pool_seconds": {
+    "claude": 28.516,
+    "codex": 48.719,
+    "ollama": 0.594,
+    "python": 13.609
+  },
+  "source_snapshot_unchanged": {
+    "index.html": true,
+    "app.js": true,
+    "styles.css": true
+  },
+  "limitations": [
+    "forced termination blocked; graceful restart only",
+    "paging is a synthetic fixture",
+    "CPU includes other same-name processes; not arm attribution",
+    "power unmeasured; GPU excluded",
+    "long-term observation incomplete",
+    "Claude alias sonnet; resolved model version unknown",
+    "local cancellation suppresses execution; does not abort inference"
+  ]
+}

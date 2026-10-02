@@ -1,0 +1,177 @@
+{
+  "simple": {
+    "fixed": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 0.0,
+      "cli_calls": 0,
+      "local_calls": 0,
+      "input": 0,
+      "cached": 0,
+      "output": 0,
+      "fallbacks": 0
+    },
+    "model": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 50.959,
+      "cli_calls": 10,
+      "local_calls": 0,
+      "input": 13600,
+      "cached": 9506,
+      "output": 590,
+      "fallbacks": 0
+    },
+    "hybrid": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 12.028,
+      "cli_calls": 0,
+      "local_calls": 10,
+      "input": 0,
+      "cached": 0,
+      "output": 0,
+      "fallbacks": 0
+    }
+  },
+  "compound": {
+    "fixed": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 0.0,
+      "cli_calls": 0,
+      "local_calls": 0,
+      "input": 0,
+      "cached": 0,
+      "output": 0,
+      "fallbacks": 0
+    },
+    "model": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 55.687,
+      "cli_calls": 10,
+      "local_calls": 0,
+      "input": 13620,
+      "cached": 9520,
+      "output": 730,
+      "fallbacks": 0
+    },
+    "hybrid": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 70.079,
+      "cli_calls": 10,
+      "local_calls": 20,
+      "input": 13650,
+      "cached": 9541,
+      "output": 730,
+      "fallbacks": 10
+    }
+  },
+  "changed": {
+    "fixed": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 0.0,
+      "cli_calls": 0,
+      "local_calls": 0,
+      "input": 0,
+      "cached": 0,
+      "output": 0,
+      "fallbacks": 0
+    },
+    "model": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 49.412,
+      "cli_calls": 10,
+      "local_calls": 0,
+      "input": 13230,
+      "cached": 9247,
+      "output": 690,
+      "fallbacks": 0
+    },
+    "hybrid": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 77.344,
+      "cli_calls": 10,
+      "local_calls": 30,
+      "input": 13710,
+      "cached": 9583,
+      "output": 1954,
+      "fallbacks": 10
+    }
+  },
+  "paging": {
+    "fixed": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 0.0,
+      "cli_calls": 0,
+      "local_calls": 0,
+      "input": 0,
+      "cached": 0,
+      "output": 0,
+      "fallbacks": 0
+    },
+    "model": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 53.001,
+      "cli_calls": 10,
+      "local_calls": 0,
+      "input": 13320,
+      "cached": 9310,
+      "output": 630,
+      "fallbacks": 0
+    },
+    "hybrid": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 7.871,
+      "cli_calls": 0,
+      "local_calls": 20,
+      "input": 0,
+      "cached": 0,
+      "output": 0,
+      "fallbacks": 0
+    }
+  },
+  "uncertain": {
+    "fixed": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 0.0,
+      "cli_calls": 0,
+      "local_calls": 0,
+      "input": 0,
+      "cached": 0,
+      "output": 0,
+      "fallbacks": 0
+    },
+    "model": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 50.443,
+      "cli_calls": 10,
+      "local_calls": 0,
+      "input": 13280,
+      "cached": 10608,
+      "output": 570,
+      "fallbacks": 0
+    },
+    "hybrid": {
+      "success": 10,
+      "cases": 10,
+      "seconds": 52.284,
+      "cli_calls": 10,
+      "local_calls": 10,
+      "input": 13280,
+      "cached": 11934,
+      "output": 570,
+      "fallbacks": 10
+    }
+  }
+}
