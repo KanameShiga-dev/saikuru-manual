@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-02",
+  "initial": {
+    "fixed": {
+      "cases": 12,
+      "success": 12,
+      "operations": 24,
+      "switches": 0,
+      "cli_calls": 0,
+      "cli_input": 0,
+      "cli_cached": 0,
+      "cli_output": 0,
+      "local_calls": 0,
+      "local_input": 0,
+      "local_output": 0,
+      "seconds": 0.0
+    },
+    "model": {
+      "cases": 12,
+      "success": 12,
+      "operations": 24,
+      "switches": 0,
+      "cli_calls": 24,
+      "cli_input": 513864,
+      "cli_cached": 178048,
+      "cli_output": 723,
+      "local_calls": 0,
+      "local_input": 0,
+      "local_output": 0,
+      "seconds": 123.315
+    },
+    "ollama": {
+      "cases": 12,
+      "success": 6,
+      "operations": 57,
+      "switches": 0,
+      "cli_calls": 0,
+      "cli_input": 0,
+      "cli_cached": 0,
+      "cli_output": 0,
+      "local_calls": 57,
+      "local_input": 87315,
+      "local_output": 57,
+      "seconds": 29.084
+    }
+  },
+  "handoff": {
+    "model": {
+      "cases": 12,
+      "success": 11,
+      "operations": 25,
+      "switches": 0,
+      "cli_calls": 26,
+      "cli_input": 555507,
+      "cli_cached": 336640,
+      "cli_output": 1646,
+      "local_calls": 0,
+      "local_input": 0,
+      "local_output": 0,
+      "seconds": 192.505
+    },
+    "hybrid": {
+      "cases": 12,
+      "success": 12,
+      "operations": 36,
+      "switches": 6,
+      "cli_calls": 15,
+      "cli_input": 331837,
+      "cli_cached": 255616,
+      "cli_output": 508,
+      "local_calls": 21,
+      "local_input": 32307,
+      "local_output": 21,
+      "seconds": 108.181
+    }
+  },
+  "integrated": {
+    "model": {
+      "cases": 8,
+      "success": 6,
+      "operations": 27,
+      "switches": 0,
+      "cli_calls": 28,
+      "cli_input": 590600,
+      "cli_cached": 339200,
+      "cli_output": 3530,
+      "local_calls": 0,
+      "local_input": 0,
+      "local_output": 0,
+      "seconds": 202.402
+    },
+    "hybrid": {
+      "cases": 8,
+      "success": 8,
+      "operations": 20,
+      "switches": 2,
+      "cli_calls": 6,
+      "cli_input": 127306,
+      "cli_cached": 50688,
+      "cli_output": 194,
+      "local_calls": 14,
+      "local_input": 8960,
+      "local_output": 14,
+      "seconds": 44.893
+    }
+  },
+  "paired_handoff": {
+    "cases": 11,
+    "values": {
+      "model": {
+        "input": 491608,
+        "cached": 317568,
+        "output": 884,
+        "calls": 23
+      },
+      "hybrid": {
+        "input": 331837,
+        "cached": 255616,
+        "output": 508,
+        "calls": 15
+      }
+    },
+    "reduction": 32.5
+  },
+  "paired_integrated": {
+    "cases": 6,
+    "values": {
+      "model": {
+        "input": 297628,
+        "cached": 190592,
+        "output": 460,
+        "calls": 14
+      },
+      "hybrid": {
+        "input": 127306,
+        "cached": 50688,
+        "output": 194,
+        "calls": 6
+      }
+    },
+    "reduction": 57.2
+  },
+  "evidence": [
+    {
+      "run": "ui-decision-20261002-080807",
+      "file": "ui-results.json",
+      "sha256": "5fc23bfea835b1c53ff1dadb4aa09cd33e489af3d93ae3e30f649c9477626ce3"
+    },
+    {
+      "run": "ui-decision-20261002-083421",
+      "file": "ui-results.json",
+      "sha256": "a0d9c3968d2e8a886005abefa05cc6d730d61fa0ee4f62a7a00cda20a1183f99"
+    },
+    {
+      "run": "ui-integrated-20261002-091436",
+      "file": "ui-results.json",
+      "sha256": "7a5be2124a63fb842453d5ea2e3356d905b312ab8e8aa5bbead469f109cd1698"
+    },
+    {
+      "run": "ui-integrated-20261002-091436",
+      "file": "metrics.json",
+      "sha256": "23e14a78731e5b60bcab4174b76eecb34b8a742c46d661bc0d5db76643874521"
+    },
+    {
+      "run": "ui-decision-20261002-083421",
+      "file": "hybrid-metrics.json",
+      "sha256": "1e244ec225a2502f6520ad639d8f819b0dd1b687ff10abf7ce583983825f4e62"
+    },
+    {
+      "run": "ui-decision-20261002-080807",
+      "file": "REPORT.md",
+      "sha256": "1dbec7e0a4167f811ae32d8ec774a4146d6ccced2e4cc169cfdcbd0133806329"
+    },
+    {
+      "run": "ui-decision-20261002-080807",
+      "file": "manifest.json",
+      "sha256": "a478d4025ac5c071e62a7178a0824b1cd92bda7c4a79f86b035a59f053266106"
+    },
+    {
+      "run": "ui-decision-20261002-083421",
+      "file": "REPORT.md",
+      "sha256": "8ec84fe63ed76d0f31641e432518d22902f3af2aecf9e62fb2a267ca09313593"
+    },
+    {
+      "run": "ui-decision-20261002-083421",
+      "file": "manifest.json",
+      "sha256": "0f0904ce37b21468ba72e20656ab9a3083d9541d212371e93d30c5416666c380"
+    },
+    {
+      "run": "ui-integrated-20261002-091436",
+      "file": "REPORT.md",
+      "sha256": "61421ded636aca837a595127013621eae40b7856caba7784354ff2a6e25bd516"
+    },
+    {
+      "run": "ui-integrated-20261002-091436",
+      "file": "manifest.json",
+      "sha256": "ef415e6d6bec9e1e87d85ede7fd07b4936d2da52a20f56f986d9a71bf842ae4d"
+    },
+    {
+      "run": "decision-20261002-071643-0df070",
+      "file": "OUTCOME.md",
+      "sha256": "5996dbe618ef9aac8bea825b0869883eebd7138e81a6fe6945bf0a5c32c5972f"
+    },
+    {
+      "run": "decision-20261002-003022-398ad6",
+      "file": "OUTCOME.md",
+      "sha256": "8310cfc68f44c79b2e4d950912d7b382a958b2174ff1703265f1d5314a90d0e5"
+    }
+  ]
+}
