@@ -1,0 +1,337 @@
+{
+  "protocol": {
+    "application": "実台帳の変更していないUI・サーバー／隔離DB・合成40件",
+    "goals": {
+      "search": "検索",
+      "filter": "検索＋分類フィルター",
+      "read": "詳細の読取",
+      "navigate": "台帳→作業ボード"
+    },
+    "repetitions": 10,
+    "native_model": "gpt-6-sol / medium",
+    "local_model": "tev1:0.8b",
+    "max_actions": 8,
+    "cli_call_cap": 80,
+    "cli_input_cap": 2000000,
+    "wall_cap_seconds": 1800
+  },
+  "normal": {
+    "fixed": {
+      "cases": 40,
+      "passed": 40,
+      "elapsed_seconds": 12.878,
+      "median_seconds": 0.219,
+      "actions": 60,
+      "native_calls": 0,
+      "local_calls": 0,
+      "native_input": 0,
+      "native_cache": 0,
+      "native_output": 0,
+      "local_input": 0,
+      "local_output": 0,
+      "switches": 0,
+      "forbidden": 0,
+      "human_interventions": 0,
+      "human_corrections": 0,
+      "usage_unknown_calls": 0
+    },
+    "model": {
+      "cases": 40,
+      "passed": 40,
+      "elapsed_seconds": 493.377,
+      "median_seconds": 6.6585,
+      "actions": 60,
+      "native_calls": 40,
+      "local_calls": 0,
+      "native_input": 841944,
+      "native_cache": 620800,
+      "native_output": 1627,
+      "local_input": 0,
+      "local_output": 0,
+      "switches": 0,
+      "forbidden": 0,
+      "human_interventions": 0,
+      "human_corrections": 0,
+      "usage_unknown_calls": 0
+    },
+    "hybrid": {
+      "cases": 40,
+      "passed": 40,
+      "elapsed_seconds": 70.189,
+      "median_seconds": 1.6825,
+      "actions": 60,
+      "native_calls": 0,
+      "local_calls": 60,
+      "native_input": 0,
+      "native_cache": 0,
+      "native_output": 0,
+      "local_input": 31840,
+      "local_output": 60,
+      "switches": 0,
+      "forbidden": 0,
+      "human_interventions": 0,
+      "human_corrections": 0,
+      "usage_unknown_calls": 0
+    }
+  },
+  "all_cases": {
+    "cases": 135,
+    "passed": 129,
+    "elapsed_seconds": 664.073,
+    "median_seconds": 1.695,
+    "actions": 195,
+    "native_calls": 46,
+    "local_calls": 64,
+    "native_input": 946624,
+    "native_cache": 708992,
+    "native_output": 1834,
+    "local_input": 33803,
+    "local_output": 64,
+    "switches": 3,
+    "forbidden": 0,
+    "human_interventions": 0,
+    "human_corrections": 0,
+    "usage_unknown_calls": 1
+  },
+  "faults": [
+    {
+      "mode": "fixed",
+      "fault": "restart",
+      "status": "passed",
+      "elapsed_ms": 21103,
+      "actions": 1,
+      "switches": 0,
+      "request_latency_ms": []
+    },
+    {
+      "mode": "model",
+      "fault": "http_error",
+      "status": "provider_error",
+      "elapsed_ms": 715,
+      "actions": 0,
+      "switches": 0,
+      "request_latency_ms": [
+        0
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "fault": "http_error",
+      "status": "passed",
+      "elapsed_ms": 8150,
+      "actions": 2,
+      "switches": 1,
+      "request_latency_ms": [
+        0,
+        6540
+      ]
+    },
+    {
+      "mode": "model",
+      "fault": "delay",
+      "status": "provider_error",
+      "elapsed_ms": 1322,
+      "actions": 0,
+      "switches": 0,
+      "request_latency_ms": [
+        601
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "fault": "delay",
+      "status": "passed",
+      "elapsed_ms": 8574,
+      "actions": 2,
+      "switches": 1,
+      "request_latency_ms": [
+        601,
+        6575
+      ]
+    },
+    {
+      "mode": "model",
+      "fault": "invalid",
+      "status": "provider_stop",
+      "elapsed_ms": 742,
+      "actions": 0,
+      "switches": 0,
+      "request_latency_ms": [
+        0
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "fault": "invalid",
+      "status": "passed",
+      "elapsed_ms": 6607,
+      "actions": 2,
+      "switches": 1,
+      "request_latency_ms": [
+        0,
+        5158
+      ]
+    },
+    {
+      "mode": "model",
+      "fault": "screen_change",
+      "status": "passed",
+      "elapsed_ms": 7305,
+      "actions": 1,
+      "switches": 0,
+      "request_latency_ms": [
+        6534
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "fault": "screen_change",
+      "status": "passed",
+      "elapsed_ms": 2210,
+      "actions": 1,
+      "switches": 0,
+      "request_latency_ms": [
+        1410
+      ]
+    },
+    {
+      "mode": "model",
+      "fault": "cancel",
+      "status": "cancelled",
+      "elapsed_ms": 1091,
+      "actions": 0,
+      "switches": 0,
+      "request_latency_ms": [
+        311
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "fault": "cancel",
+      "status": "cancelled",
+      "elapsed_ms": 978,
+      "actions": 0,
+      "switches": 0,
+      "request_latency_ms": [
+        211
+      ]
+    },
+    {
+      "mode": "model",
+      "fault": "restart",
+      "status": "passed",
+      "elapsed_ms": 9689,
+      "actions": 2,
+      "switches": 0,
+      "request_latency_ms": [
+        8868
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "fault": "restart",
+      "status": "passed",
+      "elapsed_ms": 1771,
+      "actions": 2,
+      "switches": 0,
+      "request_latency_ms": [
+        115,
+        121
+      ]
+    },
+    {
+      "mode": "fixed",
+      "fault": "screen_change",
+      "status": "passed",
+      "elapsed_ms": 39,
+      "actions": 1,
+      "switches": 0,
+      "request_latency_ms": []
+    },
+    {
+      "mode": "fixed",
+      "fault": "application_disconnect",
+      "status": "connection_failed",
+      "elapsed_ms": 17333,
+      "actions": 1,
+      "switches": 0,
+      "request_latency_ms": []
+    }
+  ],
+  "checks": [
+    {
+      "name": "write blocked /api/ledger/save",
+      "passed": true
+    },
+    {
+      "name": "write blocked /api/ledger/archive",
+      "passed": true
+    },
+    {
+      "name": "write blocked /api/ledger/delete",
+      "passed": true
+    },
+    {
+      "name": "write blocked /api/ledger/move",
+      "passed": true
+    },
+    {
+      "name": "write blocked /api/requests",
+      "passed": true
+    },
+    {
+      "name": "unauthenticated decision rejected",
+      "passed": true
+    },
+    {
+      "name": "out-of-scope candidate rejected before provider",
+      "passed": true
+    },
+    {
+      "name": "unregistered goal rejected",
+      "passed": true
+    },
+    {
+      "name": "restart retains call and token budget",
+      "passed": true
+    },
+    {
+      "name": "unchanged application server.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged application web/ledger.js",
+      "passed": true
+    },
+    {
+      "name": "unchanged application web/ledger.html",
+      "passed": true
+    },
+    {
+      "name": "unchanged application web/app.js",
+      "passed": true
+    },
+    {
+      "name": "unchanged application team_ui_actions.py",
+      "passed": true
+    },
+    {
+      "name": "restart retains 40 synthetic records",
+      "passed": true
+    }
+  ],
+  "setup_exclusions": 1,
+  "application_disconnect": {
+    "real_server_stopped": true,
+    "connection_failed": true,
+    "detection_ms": 2022,
+    "phase": "after first search action; before filtering"
+  },
+  "evidence_sha256": {
+    "manifest.json": "99ccff62a72406a8648e3615716051bcefb00450b270b7543fc268a834691966",
+    "normal-cases.json": "ddf91ccb577d27f094d1d1270bcb5a9754d320e2fec04cdf91c39f4c9705bef6",
+    "cases.json": "4726e91cdc7de54f55596fb8aa0695d0630369b598f44b0d7b7c361c424d8258",
+    "boundary-checks.json": "f554f4fc1a192383695a4cbcfc289a28d9d270fee109736ee611fcfd5bfbda58",
+    "PLAN.md": "8a8fa906e31aafba6e49659bc7f5256abdb3dbf3361fe306a633a9516d49fa48"
+  }
+}
