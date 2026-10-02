@@ -29,3 +29,6 @@ index.htmlをダウンロードすれば、画像を含めオフラインで読�
 [実画面追加評価](reports/extended-evaluation-report.html) / [判断部分の分類別最終測定](reports/final-provider-evaluation-report.html)
 
 単純選択への限定適用を推奨。全経路の自動分類を実装したという意味ではありません。合成状態の結果を未知の実アプリへ一般化せず、長期観測を継続します。
+
+
+[限定運用の実装後測定](reports/limited-runtime-evaluation-report.html)：修正後の比較は6/6達成、CLI入力約9%減。反復が少ないため暫定評価です。

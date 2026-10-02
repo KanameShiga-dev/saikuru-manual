@@ -1,0 +1,121 @@
+{
+  "operation": {
+    "search": {
+      "model": {
+        "cases": 2,
+        "success": 2,
+        "seconds": 30.443,
+        "cli_calls": 6,
+        "local_calls": 0,
+        "input": 9860,
+        "cached": 0,
+        "output": 599,
+        "switches": 0,
+        "errors": 0
+      },
+      "hybrid": {
+        "cases": 2,
+        "success": 2,
+        "seconds": 28.643,
+        "cli_calls": 6,
+        "local_calls": 0,
+        "input": 10781,
+        "cached": 0,
+        "output": 470,
+        "switches": 2,
+        "errors": 0
+      }
+    },
+    "page": {
+      "model": {
+        "cases": 2,
+        "success": 2,
+        "seconds": 9.578,
+        "cli_calls": 2,
+        "local_calls": 0,
+        "input": 3114,
+        "cached": 0,
+        "output": 108,
+        "switches": 0,
+        "errors": 0
+      },
+      "hybrid": {
+        "cases": 2,
+        "success": 2,
+        "seconds": 0.277,
+        "cli_calls": 0,
+        "local_calls": 2,
+        "input": 0,
+        "cached": 0,
+        "output": 0,
+        "switches": 0,
+        "errors": 0
+      }
+    },
+    "update": {
+      "model": {
+        "cases": 1,
+        "success": 1,
+        "seconds": 10.585,
+        "cli_calls": 2,
+        "local_calls": 0,
+        "input": 3389,
+        "cached": 0,
+        "output": 171,
+        "switches": 0,
+        "errors": 0
+      },
+      "hybrid": {
+        "cases": 1,
+        "success": 1,
+        "seconds": 9.648,
+        "cli_calls": 2,
+        "local_calls": 0,
+        "input": 3591,
+        "cached": 0,
+        "output": 149,
+        "switches": 1,
+        "errors": 0
+      }
+    },
+    "empty": {
+      "model": {
+        "cases": 1,
+        "success": 1,
+        "seconds": 9.084,
+        "cli_calls": 2,
+        "local_calls": 0,
+        "input": 3309,
+        "cached": 0,
+        "output": 113,
+        "switches": 0,
+        "errors": 0
+      },
+      "hybrid": {
+        "cases": 1,
+        "success": 1,
+        "seconds": 9.288,
+        "cli_calls": 2,
+        "local_calls": 0,
+        "input": 3521,
+        "cached": 0,
+        "output": 113,
+        "switches": 1,
+        "errors": 0
+      }
+    }
+  },
+  "intake": {
+    "cases": 30,
+    "enabled_exact": 12,
+    "enabled_cases": 15,
+    "enabled_local_calls": 9,
+    "enabled_seconds": 1.009,
+    "disabled_seconds": 0.0,
+    "all_permissions_safe": true
+  },
+  "budget": {
+    "calls": 76,
+    "input": 37565
+  }
+}
