@@ -32,3 +32,8 @@ index.htmlをダウンロードすれば、画像を含めオフラインで読�
 
 
 [限定運用の実装後測定](reports/limited-runtime-evaluation-report.html)：修正後の比較は6/6達成、CLI入力約9%減。反復が少ないため暫定評価です。
+
+
+## 紹介資料
+
+[采来 AI駆動開発の取り組み（2026-10-03・第5版、PDF・21ページ）](presentations/saikuru-ai-development-20261003-v5.pdf)
