@@ -37,3 +37,10 @@ index.htmlをダウンロードすれば、画像を含めオフラインで読�
 ## 紹介資料
 
 [采来 AI駆動開発の取り組み（2026-10-03・第5版、PDF・21ページ）](presentations/saikuru-ai-development-20261003-v5.pdf)
+
+
+## プロジェクト履歴
+
+[履歴ページの使い方と画面例](https://kanameshiga-dev.github.io/saikuru-manual/#project-history)
+
+プロジェクト別に依頼・工程・承認・作業イベントを確認します。画面例はサンプルデータで、人の担当者のログイン・本人確認は未実装です。
