@@ -36,7 +36,7 @@ index.htmlをダウンロードすれば、画像を含めオフラインで読�
 
 ## 紹介資料
 
-[采来 AI駆動開発の取り組み（2026-10-03・第7版、PDF・24ページ）](presentations/saikuru-ai-development-20261003-v7.pdf)
+[采来 AI駆動開発の取り組み（2026-10-04・第8版、PDF・27ページ）](presentations/saikuru-ai-development-20261003-v8.pdf)
 
 
 ## プロジェクト履歴
