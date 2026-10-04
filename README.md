@@ -38,6 +38,10 @@ index.htmlをダウンロードすれば、画像を含めオフラインで読�
 
 [采来 AI駆動開発の取り組み（2026-10-04・第8版、PDF・27ページ）](presentations/saikuru-ai-development-20261003-v8.pdf)
 
+[采来 紹介動画（約6分13秒・MP4・字幕あり）](videos/saikuru-introduction-v4.mp4) / [字幕（SRT）](videos/saikuru-introduction-v4.srt)
+
+画面・図解は撮影用の架空データです。音声は VOICEVOX:青山龍星。
+
 
 ## プロジェクト履歴
 
